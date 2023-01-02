@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'cyberpunkregular';
+    src: url('font/cyberpunk-regular-webfont.woff2') format('woff2'),
+    url('font/cyberpunk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cyberpunknormal';
+    src: url('font/font1/cyberpunks-webfont.woff2') format('woff2'),
+    url('font/font1/cyberpunks-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+
+    background: #294E57;
+}
+
+h1{
+    font-family: cyberpunkregular;
+}
+
+p, h2{
+    font-family: cyberpunknormal;
+}
+#nombrecabecera li{
+
+    display:flex;
+    flex-direction: row;
+    font-family: cyberpunknormal;
+}
+
+#nombrecabecera{
+    display: flex;
+    flex-direction: row;
+}
+#link { color: #EBF20C; }
+#nombrecabecera a{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#centro{
+    margin-right: 70px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    border: #EBF20C solid 4px;
+    background: #0B131E;
+}
+
+#contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+#contenido h1, h2{
+    display: flex;
+    justify-content: center;
+}
+
+#cabecera{
+    background: black;
+    margin-left: -10px;
+    margin-right: -10px;
+}
