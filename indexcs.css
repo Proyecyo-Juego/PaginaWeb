@@ -66,8 +66,7 @@ p, h2, h4{
     justify-content: center;
 }
 
-#cabecera{
-    background: black;
-    margin-left: -10px;
-    margin-right: -10px;
-}
+
+body{
+    background: #294E57;
+ }
