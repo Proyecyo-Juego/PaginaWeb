@@ -13,18 +13,6 @@
     font-weight: normal;
     font-style: normal;
 }
-body{
-
-    background: #294E57;
-}
-
-h1{
-    font-family: cyberpunkregular;
-}
-
-p, h2{
-    font-family: cyberpunknormal;
-}
 #nombrecabecera li{
 
     display:flex;
@@ -40,10 +28,21 @@ p, h2{
 
 .nombrecabecera1 {
     margin-top: 30px;
-    margin-left: 55px;
-    margin-right: 55px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#cabecera{
+    background: black;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+h1{
+    font-family: cyberpunkregular;
 }
 
+p, h2, h4{
+    font-family: cyberpunknormal;
+}
 
 #centro{
     margin-right: 60px;
