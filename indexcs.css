@@ -13,6 +13,10 @@
     font-weight: normal;
     font-style: normal;
 }
+
+body{
+    background: #294E57;
+ }
 #nombrecabecera li{
 
     display:flex;
